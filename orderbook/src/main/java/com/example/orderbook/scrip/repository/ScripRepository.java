@@ -6,5 +6,6 @@ import com.example.orderbook.security.model.Scrip;
 
 public interface ScripRepository extends JpaRepository<Scrip, Long> {
 
+	public Scrip  findByScripId(String scripId);
 	
 }
