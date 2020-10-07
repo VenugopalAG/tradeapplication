@@ -44,7 +44,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n\"clientId\":\"86ER1\",\r\n\"securityId\" : \"kotak\",\r\n\"units\": \"100\",\r\n\"value\" : \"240\",\r\n\"isBuying\" : true\r\n}"
+					"raw": "{\r\n\r\n\"clientId\":\"34GV15\",\r\n\"securityId\" : \"TCS\",\r\n\"units\": \"100\",\r\n\"value\" : \"240\",\r\n\"isBuying\" : true\r\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8080/order",
@@ -99,7 +99,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n\"name\":\"TCS\",\r\n\"currentPrice\" : \"2034\"\r\n}"
+					"raw": "{\r\n\r\n\"name\":\"Tata Consultancy\",\r\n\"scripId\":\"TCS\",\r\n\"currentPrice\" : \"2034\"\r\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8080/scrips",
@@ -154,17 +154,17 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n\"name\":\"TCS\",\r\n\"currentPrice\" : \"2034\"\r\n}"
+					"raw": "{\r\n\r\n\"clientName\":\"Venugopal\",\r\n\"clientId\" : \"34GV15\"\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/scrips",
+					"raw": "http://localhost:8080/clients",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"scrips"
+						"clients"
 					]
 				}
 			},
