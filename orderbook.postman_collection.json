@@ -116,6 +116,61 @@
 			"response": []
 		},
 		{
+			"name": "Add Clients",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "5c47819f-4d53-40a1-86e0-904251bcd85c",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer 5c47819f-4d53-40a1-86e0-904251bcd85c",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"name\":\"TCS\",\r\n\"currentPrice\" : \"2034\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/scrips",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"scrips"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Get All Scrips",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
